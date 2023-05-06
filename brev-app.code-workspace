@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "brev-app"
+    },
+    {
+      "path": "./packages/web",
+      "name": "brev-app-web"
+    },
+    {
+      "path": "./packages/server",
+      "name": "brev-app-server"
+    },
+    {
+      "path": "./packages/shared",
+      "name": "brev-app-shared"
+    }
+  ]
+}

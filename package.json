@@ -1,0 +1,22 @@
+{
+  "name": "brev-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "Book Review App",
+  "author": "Yan Lucas (zogss)",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "yarn workspace @spacie/server",
+    "web": "yarn workspace @spacie/web",
+    "shared": "yarn workspace @spacie/shared",
+    "build": "yarn workspaces foreach run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "lerna": "^6.6.2"
+  }
+}
